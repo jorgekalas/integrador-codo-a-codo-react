@@ -11,9 +11,9 @@ function App() {
 	const navigate = useNavigate();
 	const { theme } = useContext(GlobalContext);
 
-	// useEffect(() => {
-	// 	location.pathname === "/" && navigate("/home");
-	// }, []);
+	useEffect(() => {
+		location.pathname === "/" && navigate("/home");
+	}, []);
 
 	return (
 		<div className="App">
