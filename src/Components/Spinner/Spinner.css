@@ -4,7 +4,7 @@
 	height: 75px;
 	margin-top: 25vh;
 	border-radius: 50%;
-	border: 5px outset #fff;
+	/* border: 5px outset #fff; */
 }
 
 @keyframes rotate {

@@ -1,0 +1,40 @@
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw !important;
+}
+
+.navBar{
+  width: 100vw !important;
+}
+
+.image-logo-navbar{
+  width: 4rem;
+  margin-right: 1rem;
+}
+
+
+.navbar-brand{
+  font-size: 1.4rem;
+  margin-right: 2rem;
+  margin-top: 0.2rem;
+}
+
+.ul-navbar{
+  font-size: 1.2rem;
+}
+
+.dropdown-mobile-tablet-button{
+  display: none;
+}
+
+@media (max-width: 768px){
+  .navigation-desktop, .title-header{
+    display: none !important;
+  }
+
+  .dropdown-mobile-tablet-button{
+    display: block;
+  }
+}
