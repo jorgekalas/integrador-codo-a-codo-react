@@ -36,5 +36,10 @@ header{
 
   .dropdown-mobile-tablet-button{
     display: block;
+    margin-right: 1rem !important;
+  }
+
+  .image-logo-navbar{
+    margin: 0px ;
   }
 }
