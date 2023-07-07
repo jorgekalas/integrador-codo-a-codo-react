@@ -3,6 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { GlobalContext } from "../utils/global.context";
 import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
+import ShareButton from "../../Components/ShareButton/ShareButton"
 
 const DetailCard = () => {
 	const [doctor, setDoctor] = useState([]);
@@ -67,6 +68,7 @@ const DetailCard = () => {
 										<Link to="/contact">
 											<Button className="mt-4 mb-3">Agendar consulta</Button>
 										</Link>
+										<ShareButton/>
 									</div>
 								</div>
 							</div>
