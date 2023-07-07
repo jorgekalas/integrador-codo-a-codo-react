@@ -15,7 +15,7 @@ const Favs = () => {
 		<>
 			<section>
 				<ToastContainer />
-				<h1 className="mt-4">Doctores favoritos</h1>
+				<h1 className="mt-4">Médicos favoritos</h1>
 				<div>
 					{favsState.favoritedoctors.length > 0 ? (
 						<div className="d-flex flex-column align-items-center">
