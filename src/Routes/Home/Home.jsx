@@ -9,8 +9,6 @@ const Home = () => {
 	const { doctors, theme } = useContext(GlobalContext);
 	const [showSpinner, setShowSpinner] = useState(true);
 
-	console.log(doctors)
-
 	useEffect(() => {
 		setTimeout(() => {
 			setShowSpinner(false);

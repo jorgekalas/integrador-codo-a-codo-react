@@ -12,11 +12,9 @@ const DetailCard = () => {
 	const navigate = useNavigate();
 
 
-console.log(doctors[0])
 
 	useEffect(() => {
 		const doctorFiltered = doctors.find((doctor)=> doctor.id === idParam);
-		console.log(doctorFiltered)
 		setDoctor(doctorFiltered)
 	}, [doctors, idParam]);
 
